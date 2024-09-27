@@ -54,7 +54,7 @@ sel5.grid(column=1,row=4,padx=80,pady=7)
 
 
 
-reset=ttk.Button(window, text='Limpiar',command=limpiar())
+reset=ttk.Button(window, text='Limpiar',command=limpiar)
 reset.grid(column=1, row=6,sticky=tkinter.W,padx=5,pady=5)
 
 window.mainloop()
